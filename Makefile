@@ -7,7 +7,7 @@ SDK_IPHONEOS_PATH=$(shell xcrun --sdk iphoneos --show-sdk-path)
 SDK_IPHONESIMULATOR_PATH=$(shell xcrun --sdk iphonesimulator --show-sdk-path)
 XCODE_DEVELOPER_PATH="`xcode-select -p`"
 XCODETOOLCHAIN_PATH=$(XCODE_DEVELOPER_PATH)/Toolchains/XcodeDefault.xctoolchain
-IOS_DEPLOY_TGT="7.0"
+IOS_DEPLOY_TGT="8.0"
 
 IMAGE_SRC = $(shell pwd)
 PNG_SRC   = $(IMAGE_SRC)/$(PNG_NAME)
